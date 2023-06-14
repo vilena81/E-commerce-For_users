@@ -21,27 +21,27 @@ const Login = () => {
         },
         body: JSON.stringify({ email, password }),
       });
-  
+
       const data = await response.json();
       localStorage.setItem('token', data.jwt);
-  
+
       if (data.jwt && data.role === 1) {
         navigate('/admin');
       } else if (data.jwt && data.role === 0) {
         navigate('/product');
       }
-  
+
       if (data.error) {
         setError(data.error);
       }
-  
+
       setEmail('');
       setPassword('');
     } catch (error) {
       console.error('Login error:', error);
     }
   };
-  
+
 
   return (
     <div className='containerLog'>
@@ -56,7 +56,7 @@ const Login = () => {
             onChange={(e) => setEmail(e.target.value)}
           />
           <input
-          
+
             className="inpLog"
             placeholder="password"
             type="password"
@@ -74,3 +74,5 @@ const Login = () => {
 }
 
 export default Login
+
+

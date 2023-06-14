@@ -26,7 +26,7 @@ const Product = ({ id, name, img,  price }) => {
                  <img src={img} alt='iPhone' style={{width:"280px", height:"280px"}} />   
                 </div>   
                 <div className="infoPrice">
-                    <p style={{textAlign:'center'}}>Price: {price +" AMD"}</p>
+                    <p style={{textAlign:'center'}}>Price: {price} AMD</p>
                 </div>
             </div>
 

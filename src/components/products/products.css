@@ -7,14 +7,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1a7b9b;
+    
     position: relative;
     opacity: 1;
     color: rgb(96, 94, 94);
    
 }
 .containerProds{
-    background-color: #979b1a;
+    background-color: #f8f8f8;
     width: 400px;
     height: 450px;
     margin: 5px;

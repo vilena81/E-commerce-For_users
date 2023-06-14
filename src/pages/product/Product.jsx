@@ -120,11 +120,11 @@ const Product = ({id, name}) => {
           return (
             <div key={prod.id}>
               <Link to={`/single_product/${prod.id}`} style={{textDecoration:'none', color:"#333333"}}>
-                <p >{prod.name}</p>
+                <p style={{fontSize:"20px", textAlign:"center"}} >{prod.name}</p>
                 <img src={prod.img} style={{ height: "250px", width: "250px" }} />
               </Link>
               {/* <p>Description: {prod.description}</p> */}
-              <p>Price: {prod.price}</p>
+              <p style={{fontSize:"18px", textAlign:"center"}}>Price: {prod.price} AMD</p>
             </div>
           )
         })}

@@ -34,6 +34,17 @@ const AboutAs = () => {
                         <div> <img src='https://miro.medium.com/v2/resize:fit:828/0*qWwARhzMiyzsgIrc' /></div>
                         <p className='information'>Now we’re getting somewhere. The iPhone 4 was the first iPhone to have a front-facing camera. Little did Apple know, selfies would take over the world. The iPhone 4 also got a Retina display. With 512 MB memory, it was equipped to handle a lot more than even the iPhone 3GS, which only had 256 MB of memory. You can see the technology was beginning to look a little more familiar, but 32 GB was still the maximum amount of storage the iPhone could hold.</p>
                     </div>
+                    <div className="informA">
+                        <h2>iPhone 4S: October 14, 2011</h2>
+                        <div> <img src='https://miro.medium.com/v2/resize:fit:828/0*jAQH5ELrU9R7z2UD' /></div>
+                        <p className='information'>Talk about a huge difference between the iPhone 4 and the iPhone 4S: the camera went from 5 MP to a whopping 8 MP. Now, that’s an upgrade. Apple also introduced the 64 GB storage option but kept the memory at 512 MB. Video could then be recorded in 1080p. Oh, I can’t forget — hello, Siri! Apple sold four million units of the iPhone 4S in its first week.</p>
+                    </div>
+                    <div className="informA">
+                        <h2>iPhone 11: September 20, 2019</h2>
+                        <div> <img src='https://miro.medium.com/v2/resize:fit:828/0*jAQH5ELrU9R7z2UD' /></div>
+                        <p className='information'>Talk about a huge difference between the iPhone 4 and the iPhone 4S: the camera went from 5 MP to a whopping 8 MP. Now, that’s an upgrade. Apple also introduced the 64 GB storage option but kept the memory at 512 MB. Video could then be recorded in 1080p. Oh, I can’t forget — hello, Siri! Apple sold four million units of the iPhone 4S in its first week.</p>
+                    </div>
+                    
                 
 
             </div>
