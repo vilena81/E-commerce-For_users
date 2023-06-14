@@ -1,0 +1,83 @@
+.containerReg{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://vlast.kz/media/pages/qq/apple.jpg")
+        center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    position: relative;
+}
+.wrapperReg{
+    width: 30%;
+    padding: 20px;
+    background-color: white;
+}
+/* .registration{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+   display: flex; 
+   justify-content: center;
+}
+.titleReg{
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 15px 48px;
+    background-color: rgb(61, 174, 174);
+
+} */
+.registration {
+    padding: 10px 0;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .titleReg {
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 15px 48px;
+    /* background-color: rgb(61, 174, 174); */
+    border: none;
+   
+    transition: background-color 0.3s ease;
+  }
+  
+  .titleReg:hover {
+    background-color: rgb(51, 144, 144);
+  }
+form{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.inpReg{
+    flex: 1;
+    min-width: 40%;
+    margin: 20px 10px 0px 0px;
+    padding: 10px;
+}
+.agreement{
+    font-size: 12px;
+    margin: 20px 0px; 
+}
+.buttonReg{
+  
+    width: 40%;
+  border: none;
+  padding: 15px 20px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+
+}

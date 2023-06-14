@@ -1,0 +1,40 @@
+
+.container-prods {
+    flex: 1;
+    /* margin: 5px;
+    min-width: 280px;
+    height: 350px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a7b9b;
+    position: relative;
+    opacity: 1;
+    color: rgb(96, 94, 94);
+   
+}
+.containerProds{
+    background-color: #979b1a;
+    width: 400px;
+    height: 450px;
+    margin: 5px;
+    min-width: 280px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoName{
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width:380px){
+.container-prod{
+flex-direction: column;
+}
+}

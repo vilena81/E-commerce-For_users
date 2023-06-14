@@ -1,0 +1,31 @@
+export const sliderItems=[
+    {
+        id:1,
+        img:"https://www.renderhub.com/madmix/apple-iphone-13-mini-and-13-and-13-pro-and-13-pro-max-all-c/apple-iphone-13-mini-and-13-and-13-pro-and-13-pro-max-all-c-39.jpg",
+        title:"SSSSS",
+        description:"DDDDDD",
+        bg:"red",
+    },
+    {
+        id:2,
+        img:"https://ilorai.ru/uploads/news/1651135123.jpg",
+        title:"SSSSS",
+        description:"DDDDDD",
+        bg:"f5fafd",
+    },
+    {
+        id:3,
+        img:"https://i.ytimg.com/vi/EVK_x0HNQQ8/maxresdefault.jpg",
+        title:"SSSSS",
+        description:"DDDDDD",
+        bg:"f5fafd",
+    },
+    {
+        id:4,
+        img:"https://applespbevent.ru/content/images/2021/09/iphone_13_a15_based-1-.jpg",
+        title:"SSSSS",
+        description:"DDDDDD",
+        bg:"f5fafd",
+    },
+
+];

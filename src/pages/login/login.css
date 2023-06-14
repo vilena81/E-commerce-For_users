@@ -1,0 +1,52 @@
+.containerLog{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://vlast.kz/media/pages/qq/apple.jpg")
+        center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapperLog{
+    width: 25%;
+    padding: 20px;
+    background-color: white;
+
+}
+.titleLog{
+    font-size: 24px;
+    font-weight: 300;
+}
+.formLog{
+    display: flex;
+  flex-direction: column;
+
+}
+.inpLog{
+    flex: 1;
+    min-width: 40%;
+    margin:  10px  0px;
+    padding: 10px;
+}
+
+.buttonLog{
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+.linkLog{
+    margin: 5px 0px;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}
