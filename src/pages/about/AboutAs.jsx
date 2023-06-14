@@ -41,8 +41,8 @@ const AboutAs = () => {
                     </div>
                     <div className="informA">
                         <h2>iPhone 11: September 20, 2019</h2>
-                        <div> <img src='https://miro.medium.com/v2/resize:fit:828/0*jAQH5ELrU9R7z2UD' /></div>
-                        <p className='information'>Talk about a huge difference between the iPhone 4 and the iPhone 4S: the camera went from 5 MP to a whopping 8 MP. Now, that’s an upgrade. Apple also introduced the 64 GB storage option but kept the memory at 512 MB. Video could then be recorded in 1080p. Oh, I can’t forget — hello, Siri! Apple sold four million units of the iPhone 4S in its first week.</p>
+                        <div> <img src='https://miro.medium.com/v2/resize:fit:828/0*tnix3cBeL3SItxIX' /></div>
+                        <p className='information'>The iPhone 11 is the least expensive of Apple’s annual line, but still has enough new features to be in the running for 2019’s most popular iPhone. The device features a 6.1-inch Liquid Retina display, and comes in six crisp colors. The most exciting addition may be the second camera on the back of the 11, both 12 MP, and offering wide and ultra-wide lenses.</p>
                     </div>
                     
                 
