@@ -41,7 +41,7 @@ const Product = ({ id, name }) => {
                 <div className="infoPrice">
                   <p className='title'><span>Price:</span> {prod.price} AMD</p>
                 </div>
-                <Link to={`/single_product/${prod.id}`} className='link'><button>By now</button> </Link>
+                <Link to={`/single_product/${prod.id}`} className='link'><button>Buy now</button> </Link>
               </div>
             </div>
 

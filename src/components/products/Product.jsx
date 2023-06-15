@@ -5,7 +5,7 @@ const Product = ({ id, name, img,  price }) => {
 
     const [product, setProduct] = useState([])
     function getProduct(id) {
-        fetch(`http://localhost:8000/product/${id}`)
+        fetch(`http://localhost:8000/popular/${id}`)
             .then((res) => res.json())
             .then((res) => {
                 

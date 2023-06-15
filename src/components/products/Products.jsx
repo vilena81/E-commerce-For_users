@@ -1,12 +1,12 @@
 import './products.css'
 import { useState, useEffect } from "react"
-import Product from "./Product"
+// import Product from "./Product"
 
 const Products = () => {
     const [products, setProducts] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:8000/products")
+        fetch("http://localhost:8000/popular")
             .then((res) => res.json())
             .then((res) => {
                 console.log(res);
@@ -18,18 +18,20 @@ const Products = () => {
     }, []);
     console.log(products)
     return (
-        <div className='prd' style={{ padding: '20px' }}>
-            <h1 style={{ fontSize: '40px', color: "rgb(96, 94, 94)", textAlign: "center", marginTop: "30px" }}>Popular products</h1>
+        <div >
+            <p style={{fontSize:"28px", color:"#333333", textAlign:"center", }}><i>Popular products</i></p>
+            <div className="containerC">
 
-            <div className='container-prods' >
-                {products.map((item) => {
-                    return <Product id={item.id}
-                        key={item.id}
-                        name={item.name}
-                        img={item.img}
-                        price={item.price}
-                    />
-                })}
+                <div className="wrapper">
+                    {products.map((item) => {
+                        return <div key={item} className='itemPopular'>
+                            <p>{item.name}</p>
+                            <img src={item.img} style={{ width: "250px", height: "250px" }} />
+
+                            <p>{item.price} AMD</p>
+                        </div>
+                    })}
+                </div>
             </div>
         </div>
     )

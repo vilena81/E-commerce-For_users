@@ -4,7 +4,7 @@ import "./carousel.css";
 
 const images = [
   "https://www.thaqfny.com/wp-content/uploads/2022/09/%D8%A3%D9%8A%D9%81%D9%88%D9%86-14.jpg",
-  "https://www.2tmobilemy.com/image/2tmobilemy/image/cache/data/template/nextgen/banner-1-1900x515.jpg",
+  "https://avatars.dzeninfra.ru/get-zen_brief/6578950/pub_62a7000a51bab32d0f690120_62a7007c9bc8c10169754289/scale_1200",
   "https://pbs.twimg.com/media/FcEmsunagAEXfWs?format=jpg&name=large",
   "https://pbs.twimg.com/media/FBbfByvXIAQvAZh.jpg",
   "https://mac77.ru/wp-content/uploads/apple-27-inch-led-cinema-displayq-3.jpg",
