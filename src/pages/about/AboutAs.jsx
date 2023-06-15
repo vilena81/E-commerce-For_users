@@ -44,6 +44,22 @@ const AboutAs = () => {
                         <div> <img src='https://miro.medium.com/v2/resize:fit:828/0*tnix3cBeL3SItxIX' /></div>
                         <p className='information'>The iPhone 11 is the least expensive of Apple’s annual line, but still has enough new features to be in the running for 2019’s most popular iPhone. The device features a 6.1-inch Liquid Retina display, and comes in six crisp colors. The most exciting addition may be the second camera on the back of the 11, both 12 MP, and offering wide and ultra-wide lenses.</p>
                     </div>
+                    <div className="informA">
+                        <h2>iPhone SE (second generation): April 24, 2020</h2>
+                        <div> <img src='https://miro.medium.com/v2/resize:fit:828/0*Cp1dpRTxhf2qWD37' /></div>
+                        <p className='information'>The 2020 iPhone SE is the second of its kind, and is loved by those who prefer smaller iPhones. Apple takes a few cues from the past with this throwback iPhone. The 4.7-inch Retina HD display and Home button with Touch ID harken back to the original iPhone SE, and with a similarly low price. The second-generation SE offers many of the features of Apple’s most expensive iPhones, including an A13 Bionic chip, advanced camera system with Portrait mode and Depth Control, high-definition video, wireless charging capability, and long battery life.</p>
+                    </div>
+                    <div className="informA">
+                        <h2>iPhone 12: October 23, 2020</h2>
+                        <div> <img src='https://miro.medium.com/v2/resize:fit:828/0*OP-St0ZZ1eUF_NDM' /></div>
+                        <p className='information'>The 6.1-inch iPhone 12 has exactly the same features, camera specs, and processing capabilities as the 12 mini, except that it’s estimated to have a 17-hour video playback compared to the iPhone 12 mini’s 15 hours. This mid-range model also includes the dual-lens camera, which is good enough for everyday users. However, Apple did include some impressive upgrades to their higher-end iPhone 12 Pro and Pro Max phones for those who choose their iPhones for their camera capabilities.</p>
+                    </div>
+                    <div className="informA">
+                        <h2>iPhone 13: September 24, 2021</h2>
+                        <div> <img src='https://miro.medium.com/v2/resize:fit:828/0*v0v2BEKrDFYJX8eO' /></div>
+                        <p className='information'>The iPhone 13 line’s base model maintains many of the design features (re-)introduced in the iPhone 12 series, but comes with a 20 percent smaller notch, accommodated by a new camera layout. It runs on the A15 chip, which is an upgrade over the previous generation of iPhones, and the camera features some significant improvements, including Cinematic mode and Photographic Styles. Battery life is also improved for this model, and it comes in the following colors: pink, blue, midnight, starlight, and PRODUCT(RED). A big selling point for the iPhone 13 is the price point: it starts at the same price as the iPhone 12 did when released, but its base model offers double the storage space. The screen size remains the same at 6.1 inches.</p>
+                    </div>
+               
                     
                 
 
