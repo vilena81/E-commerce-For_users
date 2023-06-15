@@ -40,7 +40,7 @@ const SingleProduct = () => {
               <p className='price'><span>Price: </span> {product.price} AMD</p>
               <p className='quantity'><span>Quantity:</span> {product.quantity}</p>
               <p className='quantity'><span>Description:</span> {product.description}</p>
-              <div className='btn'><button className='add'>Add to cart</button></div>
+             
               <div className='filterContainer'>
                 <div className='filter'>
                   <div className='filterTitle'>Color</div>
@@ -57,6 +57,7 @@ const SingleProduct = () => {
                   <div className='filterColor' style={{ backgroundColor: '#2B323B' }}></div>
                 </div>
               </div>
+              <div className='btn'><button className='addToCart'>Add to cart</button></div>
             </div>
 
           </div>

@@ -9,6 +9,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+ 
 }
 
 .container {
@@ -79,10 +80,10 @@ margin: 0px 5px;
 cursor: pointer;
 }
 .btn{
-  padding-bottom: 30px;
-  padding-top: 20px;
+  
+  padding-top: 40px;
 }
-.add{
+.addToCart{
   
   padding: 15px;
   border: 2px solid teal;
@@ -95,3 +96,23 @@ cursor: pointer;
   }
 }
 
+.containerProduct{
+  
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+.wrapper{
+ 
+   margin: 5px;
+  min-width: 350px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(249, 250, 250);
+  padding: 20px;
+  margin-bottom: 20px;
+
+}

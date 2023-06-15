@@ -27,7 +27,7 @@ const ProdBar = () => {
                     <Link to={"/"} className='link' ><p>Home</p></Link>
                     <Link to={"/about"} className='link' ><p>About us</p></Link>
                     <Link className='link'><p>Contact</p></Link>
-                    <Link className='link' to={"/categories"}><p>Categories</p></Link>
+                    <Link className='link' to="/categories"><p>Categories</p></Link>
                     <div className="menuItem">
                         <Badge badgeContent={4} color="primary">
                             <ShoppingCartOutlinedIcon />

@@ -5,7 +5,8 @@ import Login from './pages/login/Login'
 import Product from "./pages/product/Product";
 import SingleProduct from "./pages/product/SingleProduct";
 import AboutAs from "./pages/about/AboutAs";
-import Categories from "./components/categories/Categories";
+// import Categories from "./components/categories/Categories";
+import CategorySelect from "./pages/categories/CategorySelect";
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
         <Route path="/product" element={<Product />} />
         <Route path="/single_product/:id" element={<SingleProduct />} />
         <Route path="/about" element={<AboutAs />}></Route>
-        <Route path="/categories" element={<Categories />}></Route>
+        {/* <Route path="/categories" element={<Categories />}></Route> */}
+        <Route path="/categories" element={<CategorySelect />}></Route>
       </Routes>
     </>
   )

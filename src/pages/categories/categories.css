@@ -1,9 +1,9 @@
-.container-item {
+/* .container-item {
     flex: 1;
    justify-content: space-between;
    text-align: center;
     margin: 3px;
-    /* height: 100vh; */
+    height: 100vh;
     width: 500px;
     position: relative;
    
@@ -12,7 +12,7 @@
 .buttonC {
     
     padding: 15px;
-    border: 2px solid teal;
+    border: 2px solid rgb(29, 90, 90);
     background-color: white;
     cursor: pointer;
     font-weight: 500;
@@ -39,13 +39,13 @@
 .title-item {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
     text-align: center;
     color: rgb(14, 13, 13);
     margin-bottom: 20px;
     border: none;
     padding: 10px 60px;
-    background-color: rgb(205, 201, 201);
+    background-color: rgb(221, 39, 39);
     color: gray;
     cursor: pointer;
     font-weight: 600;
@@ -61,5 +61,37 @@
     color: gray;
     cursor: pointer;
     font-weight: 600;
-    /* padding-bottom: 20px; */
+    padding-bottom: 20px;
+}
+.wrapperCategory{
+ 
+} 
+
+
+ */
+.containerCategory{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+.wrapperCategory{
+    margin: 5px;
+    min-width: 350px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* justify-content: space-between; */
+    background-color: rgb(249, 253, 253);
+   
+    
+}
+.info{
+    width: 380px;
+    height: 200px;
+    padding: 10px;
+}
+h4{
+    font-size: 20px;
+color: #333333;
 }
