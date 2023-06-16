@@ -2,7 +2,9 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import ProdBar from './ProdBar';
 import Footer from '../../components/footer/Footer';
-const SingleProduct = () => {
+
+
+const SingleProduct = ({addToCart}) => {
   const [product, setProduct] = useState(null);
   const [error, setError] = useState(null);
   const { id } = useParams();
@@ -57,7 +59,7 @@ const SingleProduct = () => {
                   <div className='filterColor' style={{ backgroundColor: '#2B323B' }}></div>
                 </div>
               </div>
-              <div className='btn'><button className='addToCart'>Add to cart</button></div>
+              <div className='btn'><button onClick={()=>addToCart(product)} className='addToCart'>Add to cart</button></div>
             </div>
 
           </div>

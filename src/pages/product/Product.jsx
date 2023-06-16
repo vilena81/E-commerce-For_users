@@ -4,6 +4,7 @@ import './product.css'
 import ProdBar from './ProdBar'
 import Footer from '../../components/footer/Footer';
 import { Link } from 'react-router-dom';
+import Announcement from '../../components/announcement/Announcement';
 
 
 const Product = ({ id, name }) => {
@@ -25,7 +26,7 @@ const Product = ({ id, name }) => {
   return (
     <div >
       <ProdBar />
-
+<Announcement/>
       <div className='containerProduct' >
 
         {productData.map((prod) => {
@@ -41,7 +42,7 @@ const Product = ({ id, name }) => {
                 <div className="infoPrice">
                   <p className='title'><span>Price:</span> {prod.price} AMD</p>
                 </div>
-                <Link to={`/single_product/${prod.id}`} className='link'><button>Buy now</button> </Link>
+                <Link to={`/single_product/${prod.id}`} className='link'><button>Show now</button> </Link>
               </div>
             </div>
 

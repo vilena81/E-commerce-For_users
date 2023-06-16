@@ -29,9 +29,9 @@ const ProdBar = () => {
                     <Link className='link'><p>Contact</p></Link>
                     <Link className='link' to="/categories"><p>Categories</p></Link>
                     <div className="menuItem">
-                        <Badge badgeContent={4} color="primary">
+                       <Link to={"/cart"}><Badge badgeContent={4} color="primary">
                             <ShoppingCartOutlinedIcon />
-                        </Badge>
+                        </Badge></Link> 
                     </div>
                 </div>
             </div>

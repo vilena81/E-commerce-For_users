@@ -6,7 +6,8 @@
 }
 
 .wrapperCart {
-    padding: 20px;
+    padding: 10px;
+   
 }
 
 .topCart {
@@ -54,6 +55,8 @@
 }
 
 .product {
+    
+    margin: 15px;
     display: flex;
     justify-content: space-between;
 }
@@ -61,13 +64,14 @@
 .productDetail {
     flex: 2;
     display: flex;
+    align-items: center;
 }
 
 .imgCart {
     width: 300px;
+    height: 300px;
+
 }
-
-
 
 .details {
     padding: 20px;
@@ -96,13 +100,16 @@
 }
 
 .productPrice {
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 300;
+    color: rgb(67, 65, 65);
+    margin: 20px;
 }
 
 hr {
     
-    border: 1px solid rgb(237, 235, 235) ;
+    border: 1px solid rgb(179, 72, 72) ;
+  
 }
 
 .summary {

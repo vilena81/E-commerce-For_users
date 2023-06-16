@@ -58,8 +58,8 @@ const CategorySelect = () => {
                   <img src={product.img} style={{ width: "250px", height: "250px" }} />
                 </div>
                 <div className='info'>
-                  <p className='title'><span>Description: </span>{product.description}</p>
-                  <p className='title'> <span>Price:</span>  {product.price} AMD</p>
+                  <p className='titleCategory'><span>Description: </span>{product.description}</p>
+                  <p className='titleCategory'> <span>Price:</span>  {product.price} AMD</p>
                 </div>
 
               </div>
