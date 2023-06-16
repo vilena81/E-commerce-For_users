@@ -1,5 +1,5 @@
 // import {useCartItems} from "./CartProvider";
-// import Counter from "./Counter";
+// import Counter from "./Counter"
 import { useEffect, useState } from "react";
 import DeleteIcon from '@mui/icons-material/Delete';
 
