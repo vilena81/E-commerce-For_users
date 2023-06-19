@@ -18,22 +18,22 @@ Install dependencies using npm :
 `npm install`
 
 ## Usage
-Start the development server:
+* Start the development server:
 `npm run dev`
 
-This will start the development server on http://localhost:5173 and open the application in your default browser.
+* This will start the development server on http://localhost:5173 and open the application in your default browser.
 
 ## Folder Structure
-Explain the structure of your project's folders and important files.
+* Explain the structure of your project's folders and important files.
 
 ## Contributing
-If you want to contribute to this project, follow these steps:
+* If you want to contribute to this project, follow these steps:
 
 ## Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes and commit them.
-Push the changes to your fork.
-Submit a pull request.
+* Create a new branch for your feature or bug fix.
+* Make your changes and commit them.
+* Push the changes to your fork.
+* Submit a pull request.
 
 ## Authors
 
