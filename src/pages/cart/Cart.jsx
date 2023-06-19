@@ -52,7 +52,7 @@ const Cart = ({ cart }) => {
                                 </div>
                                 <div className="summaryItem">
                                     <div className="summaryItemText" type="total">Total</div>
-                                    <div className="summaryItemPrice">7000 AMD</div>
+                                    <div className="summaryItemPrice">{elem.price} AMD</div>
                                 </div>
                                 <button className='summaryBtn'>CHECKOUT NOW</button>
                             </div>

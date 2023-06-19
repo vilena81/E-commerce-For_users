@@ -2,10 +2,10 @@
     width: 100vw;
     height: 100vh;
     background: linear-gradient(
-        rgba(255, 255, 255, 0.5),
-        rgba(255, 255, 255, 0.5)
+        rgba(255, 255, 255),
+        rgba(255, 255, 255)
       ),
-      url("https://vlast.kz/media/pages/qq/apple.jpg")
+      url("")
         center;
     background-size: cover;
     display: flex;
