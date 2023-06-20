@@ -52,7 +52,9 @@ import SingleProduct from "./pages/product/SingleProduct";
 import AboutAs from "./pages/about/AboutAs";
 import CategorySelect from "./pages/categories/CategorySelect";
 import Cart from "./pages/cart/Cart";
+import Contact from "./pages/cantact/Contact";
 import { useState, useEffect } from "react";
+
 
 const AppRoutes = () => {
   const navigate = useNavigate();
@@ -80,6 +82,7 @@ const AppRoutes = () => {
       <Route path="/about" element={<AboutAs />} />
       <Route path="/categories" element={<CategorySelect />} />
       <Route path="/cart" element={<Cart cart={cart} />} />
+      <Route path="/contact" element={<Contact/>}/>
     </Routes>
   );
 };

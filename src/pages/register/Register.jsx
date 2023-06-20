@@ -46,7 +46,11 @@ const Register = () => {
     <div className='containerReg'>
 
       <div className="wrapperReg">
-        <Link to="/" style={{ fontSize: "36px", color: "grey", textDecoration: "none" }}><AppleIcon className='logo' style={{ fontSize: "42px", color: "grey", textDecoration: "none" }} />My iPhone</Link>
+        <Link to="/" style={{ fontSize: "36px", color: "grey", textDecoration: "none" }}>
+          <AppleIcon className='logo'
+            style={{ fontSize: "42px", color: "grey", textDecoration: "none" }} />
+          My Apple
+        </Link>
         <div className="registration">
           <button className='titleReg'>Sign up</button>
           <Link to="/login">  <button className='titleReg'>Log in</button></Link>

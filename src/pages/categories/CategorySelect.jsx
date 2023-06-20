@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './categories.css'
 import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
@@ -8,8 +8,23 @@ import Select from '@mui/material/Select';
 import ProdBar from '../product/ProdBar';
 
 const CategorySelect = () => {
+
+  const [categories, setCategories] = useState([])
   const [categoryId, setCategoryId] = useState('');
   const [categoryProducts, setCategoryProducts] = useState([]);
+
+
+  useEffect(() => {
+    fetch("http://localhost:8000/categories")
+      .then((res) => res.json())
+      .then((res) => {
+        console.log(res);
+        setCategories(res);
+      })
+      .catch((error) => {
+        console.log("Error fetching categories:", error);
+      });
+  }, []);
 
   const handleChange = (event) => {
     const selectedCategoryId = event.target.value;
@@ -32,6 +47,7 @@ const CategorySelect = () => {
 
       <Box sx={{ minWidth: 120 }}>
         <ProdBar />
+
         <FormControl style={{ width: "250px" }}>
           <InputLabel id="category-select-label">Category</InputLabel>
           <Select
@@ -66,6 +82,24 @@ const CategorySelect = () => {
             </div>
 
           ))}
+         {/* <div> {categories.map((category) => {
+            return (
+              <div>
+                <div key={category.id} >
+                  <div>
+                    <h4>{category.name}</h4>
+                    <img src={category.img} style={{ width: "250px", height: "250px" }} />
+                  </div>
+                  <div className='info'>
+                    <p className='titleCategory'><span>Description: </span>{category.description}</p>
+                    <p className='titleCategory'> <span>Price:</span>  {category.price} AMD</p>
+                  </div>
+
+                </div>
+              </div>
+            )
+          })}
+          Catefhjf</div> */}
         </div>
 
       </Box>

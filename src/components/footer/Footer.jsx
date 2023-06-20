@@ -15,7 +15,7 @@ const Footer = () => {
         <div className='container-foot'>
            
             <div className="left-foot">
-                <h1 className="logo">My iPhone</h1>
+                <h1 className="logo">My <i>Apple</i></h1>
                 <p className="desc-foot">  Apple has released a total of 38 iPhones over the years (including the latest iPhone 14 models). We've given you a complete look at each iPhone evolution, starting when Steve Jobs unveiled the original iPhone in 2007. As you can see, the iPhone has gone through a lot of changes, from a 16 GB web browser to a 1 TB all-in-one camera, workspace, and entertainment center.</p>
                 
                 <div className="socialContainer">

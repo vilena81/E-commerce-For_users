@@ -20,16 +20,16 @@ const ProdBar = () => {
                 </div>
                 <div className="center-nav">
                     <Link to="/product" className="logo" >
-                        <AppleIcon className='apple' /> My iPhone
+                        <AppleIcon className='apple' /> My Apple
                     </Link>
                 </div>
                 <div className="right-nav">
                     <Link to={"/"} className='link' ><p>Home</p></Link>
                     <Link to={"/about"} className='link' ><p>About us</p></Link>
-                    <Link className='link'><p>Contact</p></Link>
+                    <Link to={'/contact'} className='link'><p>Contact</p></Link>
                     <Link className='link' to="/categories"><p>Categories</p></Link>
                     <div className="menuItem">
-                       <Link to={"/cart"}><Badge badgeContent={4} color="primary">
+                       <Link to={"/cart"}><Badge badgeContent={1} color="primary">
                             <ShoppingCartOutlinedIcon />
                         </Badge></Link> 
                     </div>

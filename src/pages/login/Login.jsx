@@ -46,7 +46,7 @@ const Login = () => {
   return (
     <div className='containerLog'>
       <div className="wrapperLog">
-        <Link to="/" style={{ fontSize: "36px", color: "grey", textDecoration: "none" }}><AppleIcon className='logo' style={{ fontSize: "42px", color: "grey", textDecoration: "none" }} />My iPhone</Link>
+        <Link to="/" style={{ fontSize: "36px", color: "grey", textDecoration: "none" }}><AppleIcon className='logo' style={{ fontSize: "42px", color: "grey", textDecoration: "none" }} />My Apple</Link>
         <h3 className="titleLog">Sign in</h3>
         <form className='formLog' onSubmit={submitLog}>
         <input

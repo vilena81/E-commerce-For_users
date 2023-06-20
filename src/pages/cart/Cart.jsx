@@ -5,8 +5,17 @@ import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 import Announcement from '../../components/announcement/Announcement';
 import ProdBar from '../product/ProdBar';
+import { useState } from 'react';
 
 const Cart = ({ cart }) => {
+
+const [count, setCount] = useState(0)
+const incriment = ()=>{
+    setCount(count+1)
+}
+const decriment = ()=>{
+    setCount(count-1)
+}
     return (
         <div className='containerCart'>
             <ProdBar />
@@ -26,9 +35,9 @@ const Cart = ({ cart }) => {
 
                         <div className="priceDetails">
                             <div className="productAmountContainer">
-                                <AddIcon />
-                                <div className="productAmount">1</div>
-                                <RemoveIcon />
+                               <button onClick={incriment}> <AddIcon /></button>
+                                <div className="productAmount">{count}</div>
+                               <button onClick={decriment}><RemoveIcon /> </button> 
                             </div>
                             <div className="productPrice">{elem.price} AMD</div>
                         </div>

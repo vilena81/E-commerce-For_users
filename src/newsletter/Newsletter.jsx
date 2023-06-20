@@ -8,7 +8,7 @@ const Newsleter = () => {
         <div className="desc-new" style={{color:"rgb(96, 94, 94)"}}>Get timely updates from your favorite products.</div>
         <div className="inputContainer">
             <input className="inputEm" placeholder='Your email' />
-            <button className="send">< SendIcon /> </button>
+            <button className="sendN">< SendIcon /> </button>
         </div>
     </div>
   )
