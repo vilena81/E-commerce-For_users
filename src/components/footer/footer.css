@@ -1,6 +1,6 @@
 .container-foot {
     display: flex;
-    padding: 20px;
+    padding: 15px;
     color: rgb(45, 45, 45);
     align-items: center;
     background-color:  rgb(243, 243, 243);
@@ -28,7 +28,7 @@
 }
 
 .desc-foot {
-    margin: 20px 0px;
+    margin: 0px 10px;
 }
 
 .title-foot {

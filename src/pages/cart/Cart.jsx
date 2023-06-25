@@ -1,5 +1,5 @@
 import './cart.css'
-import Navbar from '../../components/navbar/Navbar'
+import { Link } from 'react-router-dom';
 import Footer from '../../components/footer/Footer'
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
@@ -9,7 +9,7 @@ import { useState } from 'react';
 
 const Cart = ({ cart }) => {
 
-const [count, setCount] = useState(0)
+const [count, setCount] = useState(1)
 const incriment = ()=>{
     setCount(count+1)
 }
@@ -21,6 +21,7 @@ const decriment = ()=>{
             <ProdBar />
             <Announcement />
             <div className="wrapperCart">
+            <Link to={"/product"}> <img className='buttonGoBack' src='../../../public/back.png' /></Link>
                 <h1 className="titleCart">Your bag</h1>
                 {cart.map((elem) => {
                     return <div className="product">
@@ -28,16 +29,16 @@ const decriment = ()=>{
                             <img className='imgCart' src={elem.img} />
                             <div className="details">
                                 <div className="productPrice"><b> Product:</b>  {elem.name}</div>
-                                <div className="productPrice"><b> Description:</b>  {elem.description}</div>
                                 <div className="productPrice"><b>Price:</b> {elem.price}AMD</div>
+                                <div className="productPrice"><b> Quantity:</b>  {elem.quantity}</div>
                             </div>
                         </div>
 
                         <div className="priceDetails">
                             <div className="productAmountContainer">
-                               <button onClick={incriment}> <AddIcon /></button>
+                              <button onClick={decriment}><RemoveIcon /> </button> 
                                 <div className="productAmount">{count}</div>
-                               <button onClick={decriment}><RemoveIcon /> </button> 
+                                <button onClick={incriment}> <AddIcon /></button>
                             </div>
                             <div className="productPrice">{elem.price} AMD</div>
                         </div>

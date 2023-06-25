@@ -1,11 +1,11 @@
 
-.containerCategory {
+/* .containerCategory {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 40px;
-}
-.wrapperCategory {
+} */
+/* .wrapperCategory {
     margin: 5px;
     min-width: 350px;
     height: 550px;
@@ -14,19 +14,103 @@
     text-align: center;
     background-color: rgb(249, 253, 253);
     padding-bottom: 20px;
-}
-.info {
+} */
+/* .info {
     width: 350px;
     height: 200px;
     padding: 10px;
     text-align: start;
-}
+} */
 
-.titleCategory {
+/* .titleCategory {
     height: 160px;
-}
+} */
 h4 {
     font-size: 20px;
     color: #333333;
     text-align: center;
 }
+.allCategory {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .wrapperAllCategory {
+    width: 300px;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  
+  .wrapperAllCategory img {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .info {
+    margin-top: 20px;
+  }
+  
+  .titleCategory {
+    margin-bottom: 10px;
+  }
+  
+  .titleCategory span {
+    font-weight: bold;
+  }
+  .containerCategory {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+    padding-top: 40px;
+  }
+  
+  .wrapperCategory {
+    width: 300px;
+    height: 600px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: transform 0.3s ease;
+}
+  .wrapperCategory:hover{
+    transform: scale(1.1);
+  }
+  .wrapperCategory img {
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .info {
+    margin-top: 20px;
+  }
+  
+  .titleCategory {
+    margin-bottom: 10px;
+  }
+  .titleDescCategory{
+    height: 200px;
+  }
+  .titleCategory span {
+    font-weight: bold;
+  }
+  
+.imageContainerCategory {
+  
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+margin-left: 25px;
+}
+
+
+

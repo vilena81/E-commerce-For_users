@@ -2,7 +2,8 @@ import React from 'react'
 import './login.css'
 import { Link, useNavigate } from 'react-router-dom'
 import AppleIcon from '@mui/icons-material/Apple';
-import { useState } from 'react';
+import { useState } from 'react'; 
+import Apple from '/public/apple.png'
 
 const Login = () => {
 
@@ -45,9 +46,16 @@ const Login = () => {
 
   return (
     <div className='containerLog'>
+      
       <div className="wrapperLog">
         <Link to="/" style={{ fontSize: "36px", color: "grey", textDecoration: "none" }}><AppleIcon className='logo' style={{ fontSize: "42px", color: "grey", textDecoration: "none" }} />My Apple</Link>
-        <h3 className="titleLog">Sign in</h3>
+        <div className="registration">
+          <Link to="/register">
+          <button className="titleReg">Sign up</button>
+          </Link>
+            <button className="titleReg">Log in</button>
+          
+        </div>
         <form className='formLog' onSubmit={submitLog}>
         <input
             className="inpLog"
@@ -65,9 +73,12 @@ const Login = () => {
           />
           <button className='buttonLog' type='submit'>LOGIN</button>
           {error && (<p>{error}</p>)}
-          <Link className='linkLog'>DO NOT REMEMBER THE PASSWORD?</Link>
-          <Link to="/register" className='linkLog'>CREATE a NEW ACCOUNT</Link>
+          {/* <Link className='linkLog'>DO NOT REMEMBER THE PASSWORD?</Link>
+          <Link to="/register" className='linkLog'>CREATE a NEW ACCOUNT</Link> */}
         </form>
+      </div>
+      <div className="wrapperRight">
+        <img src={Apple}/>
       </div>
     </div>
   )

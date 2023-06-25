@@ -1,15 +1,13 @@
-
-.navbar-container{
+.navbar-container {
   background-color: #ffffff;
-  
-  
+
 }
 .containerProd {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
- 
+
 }
 
 .container {
@@ -29,7 +27,7 @@ img {
 }
 
 .circle {
-  
+
   color: grey;
   font-size: 18px;
 }
@@ -48,69 +46,149 @@ img {
 
 .imgSingle {
   width: 550px;
-  height:550px;
+  height: 550px;
   object-fit: cover;
 }
 
 .infoContainer {
   flex: 1;
-  padding: 60px ;
-font-size: 18px;
+  padding: 60px;
+  font-size: 18px;
 }
-span{
+.infoContainer p{
+  font-size: 20px;
+}
+span {
   font-size: 20px;
   font-weight: 600;
-color: #323234;
+  color: #323234;
 }
-.filter{
+
+.filter {
   display: flex;
   align-items: center;
 }
-.filterTitle{
+
+.filterTitle {
   font-size: 20px;
   font-weight: 200;
 }
-.filterColor{
-width: 20px;
-height: 20px;
-border-radius: 50%;
-margin: 0px 5px;
-cursor: pointer;
+
+.filterColor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0px 5px;
+  cursor: pointer;
 }
-.btn{
-  
+
+.btn {
+
   padding-top: 40px;
 }
-.addToCart{
-  
+
+.addToCart {
+
   padding: 15px;
   border: 2px solid teal;
   background-color: white;
   cursor: pointer;
   font-weight: 500;
 
-  &:hover{
-      background-color: #f8f4f4;
+  &:hover {
+    background-color: #f8f4f4;
   }
 }
-.containerProduct{
-  display: flex;
 
+.containerProduct {
+  display: flex;
   flex-wrap: wrap;
-  padding-top: 30px;
-justify-content: center;
+  justify-content: center;
+
 }
-.wrapper{
- 
-   margin: 25px;
+
+.wrapper {
+  /* background-color: #323234; */
+  margin: 25px;
   min-width: 300px;
   height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgb(247, 253, 253);
   padding: 20px;
+  padding-top: 40px;
   margin-bottom: 20px;
 
+}
+.imageProd {
+  transition: transform 0.3s ease;
+  padding: 10px;
+}
+.imageProd:hover{
+  transform: scale(1.2);
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+
+}
+.icons1 {
+  display: flex;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
+  top: 50%;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  background-color: #2F4F4F;
+  border-radius: 50%;
+ 
+}
+.icons2 {
+  display: flex;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  right: 0;
+  top: 50%;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  background-color: #2F4F4F;
+  border-radius: 50%;
+}
+.icona1,
+.icona2 {
+  font-size: 24px;
+  color: #000;
+  position: absolute;
+  left: 21px;
+  top: 17px;
+}
+
+.icona1:disabled,
+.icona2:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.icona1:hover,
+.icona2:hover {
+  color: #999;
+}
+.buttonGoBack {
+  cursor: pointer;
+  width: 50px;
+  margin-left: 40px;
+  
+}
+
+.titleProd{
+  font-size: 20px;
+/* padding-bottom: 20px; */
 }

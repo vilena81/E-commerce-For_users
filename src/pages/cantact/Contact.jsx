@@ -20,7 +20,7 @@ const Contact = () => {
     };
 
     try {
-      await fetch('/send-email', {
+      await fetch('http://localhost:8000/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -33,6 +33,7 @@ const Contact = () => {
       alert('An error occurred while sending the email');
     }
   };
+
 
   return (
     <div>

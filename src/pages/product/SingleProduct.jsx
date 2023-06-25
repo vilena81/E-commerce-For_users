@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import ProdBar from './ProdBar';
 import Footer from '../../components/footer/Footer';
+import '../../../public/back.png'
 
 
 const SingleProduct = ({addToCart}) => {
@@ -31,6 +32,8 @@ const SingleProduct = ({addToCart}) => {
   return (
     <div className='containerS'>
       <ProdBar />
+     <Link to={"/product"}> <img className='buttonGoBack' src='../../../public/back.png' /></Link>
+      
       <div className="containerSingle">
         {product && (
           <div className='wrapperSingle'>
@@ -38,10 +41,11 @@ const SingleProduct = ({addToCart}) => {
               <img className='imgSingle' src={product.img} alt='Product' />
             </div>
             <div className='infoContainer'>
-              <p className='name'><span>Product name:</span>  {product.name}</p>
+              
+               <p className='nameS'><span>Product name:</span> {product.name}</p>
               <p className='price'><span>Price: </span> {product.price} AMD</p>
               <p className='quantity'><span>Quantity:</span> {product.quantity}</p>
-              <p className='quantity'><span>Description:</span> {product.description}</p>
+              <p className='quantity'><span>Description:</span> {product.description}</p> 
              
               <div className='filterContainer'>
                 <div className='filter'>
