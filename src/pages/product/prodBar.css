@@ -76,6 +76,20 @@
     cursor: pointer;
     margin-left: 25px;
 }
+.burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    display: none;
+    cursor: pointer;
+  }
+  .burger-icon {
+    width: 30px;
+    height: 4px;
+    margin: 4px;
+    
+  }
+  
 
 @media only screen and (max-width:380px){
     .navbar-container{
@@ -84,7 +98,9 @@
     .wrapper-nav{
         padding: 10px 0px;
     }
-    
+    .burger-menu{
+        display: block;
+    }
     .searchInp{
         width: 50px;
     }
@@ -101,3 +117,110 @@
         margin-left: 10px;
     }
 }
+@media only screen and (max-width: 600px) {
+    .navbar-container {
+      height: 40px;
+      padding-bottom: 10px;
+    }
+    .searchContainer {
+      margin-left: 10px;
+      font-size: 14px;
+    }
+    .logo {
+      font-size: 20px;
+    }
+    .right-nav {
+      font-size: 16px;
+    }
+    .menuItem {
+      font-size: 12px;
+      margin-left: 10px;
+    }
+    .link{
+        font-size: 14px;
+    }
+  }
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    .navbar-container {
+      height: 50px;
+      padding-bottom: 15px;
+    }
+    .searchContainer {
+      margin-left: 15px;
+      font-size: 16px;
+    }
+    .logo {
+      font-size: 20px;
+    }
+    .right-nav {
+      font-size: 18px;
+    }
+    .menuItem {
+      font-size: 14px;
+      margin-left: 15px;
+    }
+    
+  }
+  @media(max-width: 767px){
+    .burger-menu {
+        position: relative; /* задаем относительное позиционирование */
+        width: 40px; /* определяем размеры блока */
+        height: 35px;
+        display: block;
+        margin-left: 10px;
+    }
+    
+    .menu-burger__header span{
+        top: 21px;
+    }
+    .menu-burger__header:after, .menu-burger__header:before{
+        content: '';
+    }
+    .menu-burger__header:after{
+        bottom: 5px;
+    }
+    .menu-burger__header:before{
+        top: 5px;
+    }
+}
+  
+
+  
+  
+  @media only screen and (max-width: 768px) {
+   
+   .burger-menu{
+    display: block;
+}
+.right-nav{
+    display: none;
+}
+.wrapper-nav{
+    display: flex;
+    justify-content: center;
+}
+.center-nav{
+   display: flex;
+}
+  }
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+   
+       .burger-menu{
+        display: block;
+    }
+    .right-nav{
+        display: none;
+    }
+    .wrapper-nav{
+        display: flex;
+        justify-content: center;
+    }
+    .center-nav{
+       display: flex;
+    }
+  }
+  
+  
+  
+  
+  
